@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #c8ccd3;
+    height: 70px;
+    position: relative;
+}
+.navbar{
+    background-color: white;
+}
+.nav-item{
+   
+    margin: 0px 8px;
+    padding: 0px 7px;
+}
+.nav-item:hover{
+    background-color: black;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+
+    align-items: center;
+   margin: 0px 10px;
+}
+.banner{
+    background-image: url(./girl.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    border: 1px solid red;
+    border-radius: 2px;
+    width: 200px;
+    height: 40px;
+    color: yellow;
+    text-align: center;
+}
+
